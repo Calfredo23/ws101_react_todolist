@@ -1,0 +1,26 @@
+html, #root {
+    background: linear-gradient(180deg, #fffbca 0%, #DEFFF7 100%);
+    height: 200vh;
+}
+.d-flex{
+    background-color: #ffffff;
+}
+.card{
+    background-color: #ffffff;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}

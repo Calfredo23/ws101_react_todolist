@@ -1,0 +1,80 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4 button{
+    color: rgb(246, 242, 242);
+    background-color: #03035c;
+}
+
+.d-flex button{
+    color: rgb(255, 255, 255);
+    background-color: #0c1c95; 
+}
+
+.col-md-4:first-child {
+    justify-content: flex-start;
+}
+
+.col-md-4:last-child {
+    justify-content: flex-end;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-6 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-6 button{
+    height: 100px;
+    width: auto;
+}
+
+.row {
+    max-width: 900px;
+    box-shadow: 0 0 22px black;
+    border-radius: 2%;
+    min-height: 370px;
+    margin: 160px auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border: 15px solid black;
+}
+
+.col-md-6 {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.col-md-6:first-child {
+    margin-left: 0; 
+}
+
+.col-md-6:last-child {
+    margin-right: 0; 
+}
+
+
+.mt-4 {
+    box-shadow: 0 0 0px black;
+    border: 0px solid black;
+}
+
+.button-container{
+    box-shadow: 0 0 0px black;
+}
